@@ -1,1 +1,1 @@
-export const serverURL = "http://localhost:3001";
+export const serverURL = "https://catchdong.herokuapp.com";

@@ -11,12 +11,7 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-const socket = io.connect(serverURL, {
-  withCredentials: true,
-  extraHeaders: {
-    "my-custom-header": "abcd",
-  },
-});
+const socket = io.connect(serverURL);
 
 function Play({ match }) {
   const canvasRef = useRef(null);
