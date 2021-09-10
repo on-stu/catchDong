@@ -1,1 +1,1 @@
-export const serverURL = "https://catchdong.herokuapp.com";
+export const serverURL = "https://catchdongserver.herokuapp.com/";
